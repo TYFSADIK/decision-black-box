@@ -1,0 +1,5 @@
+{"roles": {
+  "observer": ["alert.ack"],
+  "operator": ["alert.ack", "track.classify", "track.dismiss"],
+  "supervisor": ["alert.ack", "track.classify", "track.dismiss", "track.designate_hostile", "asset.task"]
+}}
